@@ -1,21 +1,18 @@
 'use client';
 
 import BarberImg from '@/app/assets/barber.png'
-import CoffeeImg from '@/app/assets/coffee.png'
-import ShopImg from '@/app/assets/shop.png'
+import CoffeeImg from '@/app/assets/coffee.svg'
+import ShopImg from '@/app/assets/shop.svg'
 
 import Image from 'next/image'
 
 export function Projects() {
     return (
-        <div className='flex' >
-             <div id="keen-slider__slide" className='flex pl-60 space-x-5 overflow-x-auto pr-2'>
-                <Image src={ShopImg} width={600} height={20} alt="" className='h-96 rounded-sm'/>
-                <Image src={BarberImg} width={600} height={20} alt="" className='h-96 rounded-sm'/>
-                <Image src={CoffeeImg} width={600} height={20} alt="" className='h-96 rounded-sm'/>
+             <div className='flex md:mt-5 md:pl-52 space-x-5 pl-4 overflow-x-auto pr-2 pb-2 mb-32'>
+                <Image src={ShopImg} width={800} height={800} alt="" className='h-96 rounded-sm md:w-[800px]'/>
+                <Image src={BarberImg} width={800} height={800} alt="" className='h-96 rounded-sm w-[800px]'/>
+                <Image src={CoffeeImg} width={800} height={800} alt="" className='h-96 rounded-sm w-[800px]'/>
               </div>
-          
-         </div>
     
     ) 
 }
