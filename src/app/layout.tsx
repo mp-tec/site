@@ -7,7 +7,7 @@ const roboto = Roboto_Flex({ subsets: ['latin'], weight: ['300', '400', '700'] }
 
 export const metadata: Metadata = {
   title: 'MP Tec',
-  description: '',
+  description: 'A empresa de tecnologia que você precisa para fazer o seu negócio crescer!',
 }
 
 export default function RootLayout({
