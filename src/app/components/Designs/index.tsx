@@ -1,5 +1,3 @@
-'use client';
-
 import CerroImg from '@/app/assets/cerro.svg'
 import System from '@/app/assets/system.svg'
 import Terminal from '@/app/assets/terminal.svg'

@@ -1,5 +1,3 @@
-'use client';
-
 import BarberImg from '@/app/assets/barber.svg'
 import CoffeeImg from '@/app/assets/coffee.svg'
 import ShopImg from '@/app/assets/shop.svg'

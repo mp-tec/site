@@ -1,4 +1,5 @@
 'use client';
+
 import Logo from '@/app/assets/logo.gif'
 import Image from 'next/image'
 import Link from 'next/link'
