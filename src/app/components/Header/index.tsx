@@ -9,7 +9,7 @@ import { Envelope, GithubLogo, InstagramLogo, WhatsappLogo } from "phosphor-reac
 export function Header() {
    return (
     <header className="bg-zinc-950 w-full h-24 flex justify-between items-center border-b-2 border-gray-500 space-x-10 px-4 md:px-52">
-      <Link href="/"><Image src={Logo} width={300} height={60} alt="logo MP Tec" /></Link>
+      <Link href="/"><Image src={Logo} width={300} height={60} alt="logo MP Tec" className="-ml-[4.5rem]"/></Link>
        
        <div className="flex items-center justify-center ">
        <Link href="https://github.com/mp-tec" className="text-white hover:text-zinc-600 h-8 transition-all duration-300 animate-bounce" target='blank'>
